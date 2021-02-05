@@ -1,0 +1,12 @@
+/Users/pavelmitkalev/Projects/LinkedList/LinkedList/bin/Debug/netcoreapp3.1/LinkedList.deps.json
+/Users/pavelmitkalev/Projects/LinkedList/LinkedList/bin/Debug/netcoreapp3.1/LinkedList.runtimeconfig.json
+/Users/pavelmitkalev/Projects/LinkedList/LinkedList/bin/Debug/netcoreapp3.1/LinkedList.runtimeconfig.dev.json
+/Users/pavelmitkalev/Projects/LinkedList/LinkedList/bin/Debug/netcoreapp3.1/LinkedList.dll
+/Users/pavelmitkalev/Projects/LinkedList/LinkedList/bin/Debug/netcoreapp3.1/LinkedList.pdb
+/Users/pavelmitkalev/Projects/LinkedList/LinkedList/obj/Debug/netcoreapp3.1/LinkedList.csprojAssemblyReference.cache
+/Users/pavelmitkalev/Projects/LinkedList/LinkedList/obj/Debug/netcoreapp3.1/LinkedList.AssemblyInfoInputs.cache
+/Users/pavelmitkalev/Projects/LinkedList/LinkedList/obj/Debug/netcoreapp3.1/LinkedList.AssemblyInfo.cs
+/Users/pavelmitkalev/Projects/LinkedList/LinkedList/obj/Debug/netcoreapp3.1/LinkedList.csproj.CoreCompileInputs.cache
+/Users/pavelmitkalev/Projects/LinkedList/LinkedList/obj/Debug/netcoreapp3.1/LinkedList.dll
+/Users/pavelmitkalev/Projects/LinkedList/LinkedList/obj/Debug/netcoreapp3.1/LinkedList.pdb
+/Users/pavelmitkalev/Projects/LinkedList/LinkedList/obj/Debug/netcoreapp3.1/LinkedList.genruntimeconfig.cache
