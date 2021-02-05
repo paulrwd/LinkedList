@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Collections;
+using System.Transactions;
+
 namespace LinkedList.Model
 {
-    public class LinkedList<T>
+    public class LinkedList<T> : IEnumerable
     {
         public Item<T> Head { get; private set; }
         public Item<T> Tail { get; private set; }
@@ -52,13 +55,16 @@ namespace LinkedList.Model
                 var previous = Head;
 
 
-                while(current.Next != null)
+                while(current != null)
                 {
                     if (current.Data.Equals(data))
                     {
                         previous.Next = current.Next;
                         Count--;
                     }
+
+                    previous = current;
+                    current = current.Next;
                 }
             }
         }
@@ -70,6 +76,15 @@ namespace LinkedList.Model
             Tail = item;
             Count = 1;
 
+        }
+
+        public IEnumerator GetEnumerator()
+        {
+            var current = Head;
+            while(current != null)
+            {
+
+            }
         }
     }
 }
