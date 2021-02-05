@@ -83,7 +83,8 @@ namespace LinkedList.Model
             var current = Head;
             while(current != null)
             {
-
+                yield return current.Data;
+                current = current.Next;
             }
         }
     }

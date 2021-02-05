@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+
 namespace LinkedList.Model
 {
     public class Item<T>
@@ -27,5 +29,6 @@ namespace LinkedList.Model
             return base.ToString();
         }
 
+        
     }
 }

@@ -13,11 +13,13 @@ namespace LinkedList
             list.Add(4);
             list.Add(5);
 
-            Console.WriteLine(list.Count);
+            list.Delete(4);
 
-            list.Delete(3);
 
-            Console.WriteLine(list.Count);
+            foreach(var a in list)
+            {
+                Console.WriteLine(a);
+            }
 
             Console.ReadLine();
 
