@@ -102,6 +102,10 @@ namespace LinkedList.Model
                     current = current.Next;
                 }
             }
+            else 
+            {
+                SetHeadAndTail(data);
+            }
         }
         /// <summary>
         /// Добавить данные в начало списка
@@ -115,6 +119,46 @@ namespace LinkedList.Model
             
             Head = item;
             Count++;
+        }
+
+        public void InsertAfter(T target, T data)
+        {
+            if (Head != null)
+            {
+                var item = new Item<T>(data);
+                if (Head.Data.Equals(target))
+                {
+                    item.Next = Head.Next;
+                    Head.Next = item;
+                    Count++;
+                    return;
+                }
+
+                var current = Head.Next;
+                var previous = Head;
+
+
+                while (current != null)
+                {
+                    if (current.Data.Equals(data))
+                    {
+                        previous.Next = current.Next;
+                        Count--;
+                    }
+
+                    previous = current;
+                    current = current.Next;
+                }
+            }
+            else 
+            {
+                //Нужно для себя решить, если список пустой, 
+                //то либо не добавлять ничего, либо вставить данные
+
+                SetHeadAndTail(target);
+                Add(data);
+            }
+
         }
 
         private void SetHeadAndTail(T data)
