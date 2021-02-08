@@ -8,30 +8,28 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\paulr\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/pavelmitkalev/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\paulr\\source\\repos\\LinkedList\\LinkedList.csproj",
+      "projectUniqueName": "/Users/pavelmitkalev/Projects/LinkedList/LinkedList/LinkedList/LinkedList.csproj",
       "projectName": "LinkedList",
-      "projectPath": "C:\\Users\\paulr\\source\\repos\\LinkedList\\LinkedList.csproj",
-      "packagesPath": "C:\\Users\\paulr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\paulr\\source\\repos\\LinkedList\\obj\\",
+      "projectPath": "/Users/pavelmitkalev/Projects/LinkedList/LinkedList/LinkedList/LinkedList.csproj",
+      "packagesPath": "/Users/pavelmitkalev/.nuget/packages/",
+      "outputPath": "/Users/pavelmitkalev/Projects/LinkedList/LinkedList/LinkedList/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\paulr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/pavelmitkalev/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -64,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }

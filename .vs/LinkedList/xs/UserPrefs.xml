@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{7464E26C-5E68-4A23-BBD8-8ADF1691F320}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Model/Item.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="16" Column="43" />
-      <File FileName="Model/LinkedList.cs" Line="67" Column="1" />
-      <File FileName="Model/Item.cs" Line="4" Column="28" />
+      <File FileName="Program.cs" Line="26" Column="16" />
+      <File FileName="Model/LinkedList.cs" Line="58" Column="1" />
+      <File FileName="Model/Item.cs" Line="6" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,9 +13,8 @@
               <Node name="Dependencies" expanded="True">
                 <Node name="FrameworkReferences" expanded="True" />
               </Node>
-              <Node name="Model" expanded="True">
-                <Node name="Item.cs" selected="True" />
-              </Node>
+              <Node name="Model" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -30,8 +29,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/pavelmitkalev/Projects/LinkedList/LinkedList/LinkedList/Model/LinkedList.cs" relfile="Model/LinkedList.cs" line="55" column="1" />
-      <Breakpoint file="/Users/pavelmitkalev/Projects/LinkedList/LinkedList/LinkedList/Program.cs" relfile="Program.cs" line="20" column="1" />
+      <Breakpoint file="/Users/pavelmitkalev/Projects/LinkedList/LinkedList/LinkedList/Model/LinkedList.cs" relfile="Model/LinkedList.cs" line="58" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
