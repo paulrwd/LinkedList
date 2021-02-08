@@ -23,8 +23,6 @@ namespace LinkedList
 
             Console.ReadLine();
 
-            //1
-
 
 
         }
