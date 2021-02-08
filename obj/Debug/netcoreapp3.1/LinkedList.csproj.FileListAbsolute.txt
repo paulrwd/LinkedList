@@ -22,3 +22,16 @@
 /Users/pavelmitkalev/Projects/LinkedList/LinkedList/LinkedList/obj/Debug/netcoreapp3.1/LinkedList.dll
 /Users/pavelmitkalev/Projects/LinkedList/LinkedList/LinkedList/obj/Debug/netcoreapp3.1/LinkedList.pdb
 /Users/pavelmitkalev/Projects/LinkedList/LinkedList/LinkedList/obj/Debug/netcoreapp3.1/LinkedList.genruntimeconfig.cache
+C:\Users\paulr\source\repos\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.exe
+C:\Users\paulr\source\repos\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.deps.json
+C:\Users\paulr\source\repos\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.runtimeconfig.json
+C:\Users\paulr\source\repos\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.runtimeconfig.dev.json
+C:\Users\paulr\source\repos\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.dll
+C:\Users\paulr\source\repos\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.pdb
+C:\Users\paulr\source\repos\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.csprojAssemblyReference.cache
+C:\Users\paulr\source\repos\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.AssemblyInfoInputs.cache
+C:\Users\paulr\source\repos\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.AssemblyInfo.cs
+C:\Users\paulr\source\repos\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.csproj.CoreCompileInputs.cache
+C:\Users\paulr\source\repos\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.dll
+C:\Users\paulr\source\repos\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.pdb
+C:\Users\paulr\source\repos\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.genruntimeconfig.cache
