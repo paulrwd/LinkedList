@@ -4,13 +4,30 @@ using System.Transactions;
 
 namespace LinkedList.Model
 {
+    /// <summary>
+    /// Односвязный список
+    /// </summary>
+
     public class LinkedList<T> : IEnumerable
     {
+        /// <summary>
+        /// Первый элемент списка
+        /// </summary>
         public Item<T> Head { get; private set; }
+
+        /// <summary>
+        /// Последний элемент списка
+        /// </summary>
         public Item<T> Tail { get; private set; }
 
+        /// <summary>
+        /// Количество элементов в списке
+        /// </summary>
         public int Count { get; private set; }
 
+        /// <summary>
+        /// Создать пустой список
+        /// </summary>
         public LinkedList()
         {
             Head = null;
@@ -18,6 +35,9 @@ namespace LinkedList.Model
             Count = 0;
         }
 
+        /// <summary>
+        /// Создать список с начальным элементов
+        /// </summary>
         public LinkedList(T data)
         {
             
@@ -25,6 +45,9 @@ namespace LinkedList.Model
 
         }
 
+        /// <summary>
+        /// Добавить данные в конец списка
+        /// </summary>
         public void Add(T data)
         {
 
@@ -40,6 +63,10 @@ namespace LinkedList.Model
                 SetHeadAndTail(data);
             }
         }
+
+        /// <summary>
+        /// Удалить первое вхождение данных в список
+        /// </summary>
         public void Delete(T data)
         {
             if (Head != null)
@@ -78,6 +105,9 @@ namespace LinkedList.Model
 
         }
 
+        /// <summary>
+        /// Получить перечисление всех элементов списка
+        /// </summary>
         public IEnumerator GetEnumerator()
         {
             var current = Head;
