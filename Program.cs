@@ -14,6 +14,7 @@ namespace LinkedList
             list.Add(5);
 
             list.Delete(4);
+            list.AppendHead(7);
 
 
             foreach(var a in list)

@@ -4,10 +4,10 @@ using System.Transactions;
 
 namespace LinkedList.Model
 {
+    
     /// <summary>
     /// Односвязный список
     /// </summary>
-
     public class LinkedList<T> : IEnumerable
     {
         /// <summary>
@@ -102,6 +102,19 @@ namespace LinkedList.Model
                     current = current.Next;
                 }
             }
+        }
+        /// <summary>
+        /// Добавить данные в начало списка
+        /// </summary>
+        public void AppendHead(T data)
+        {
+            var item = new Item<T>(data)
+            {
+                Next = Head
+            };
+            
+            Head = item;
+            Count++;
         }
 
         private void SetHeadAndTail(T data)
