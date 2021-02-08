@@ -30,6 +30,14 @@ namespace LinkedList.Model
         /// </summary>
         public LinkedList()
         {
+            Clear();
+        }
+
+        /// <summary>
+        /// Очистить список
+        /// </summary>
+        public void Clear()
+        {
             Head = null;
             Tail = null;
             Count = 0;
