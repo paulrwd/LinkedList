@@ -23,7 +23,7 @@ namespace LinkedList
 
             Console.ReadLine();
 
-            //123
+            //1
 
 
 
