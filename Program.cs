@@ -21,7 +21,7 @@ namespace LinkedList
             {
                 Console.WriteLine(a);
             }
-
+            //
             Console.ReadLine();
 
 
