@@ -1,30 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\paulr\\source\\repos\\LinkedList\\LinkedList.csproj": {}
+    "/Users/paulrwd/Documents/GitHub/LinkedList/LinkedList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\paulr\\source\\repos\\LinkedList\\LinkedList.csproj": {
+    "/Users/paulrwd/Documents/GitHub/LinkedList/LinkedList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\paulr\\source\\repos\\LinkedList\\LinkedList.csproj",
+        "projectUniqueName": "/Users/paulrwd/Documents/GitHub/LinkedList/LinkedList.csproj",
         "projectName": "LinkedList",
-        "projectPath": "C:\\Users\\paulr\\source\\repos\\LinkedList\\LinkedList.csproj",
-        "packagesPath": "C:\\Users\\paulr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\paulr\\source\\repos\\LinkedList\\obj\\",
+        "projectPath": "/Users/paulrwd/Documents/GitHub/LinkedList/LinkedList.csproj",
+        "packagesPath": "/Users/paulrwd/.nuget/packages/",
+        "outputPath": "/Users/paulrwd/Documents/GitHub/LinkedList/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\paulr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/paulrwd/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
         }
       }
     }
