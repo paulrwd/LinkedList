@@ -1,8 +1,8 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{7464E26C-5E68-4A23-BBD8-8ADF1691F320}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="24" Column="15" />
-      <File FileName="Model/LinkedList.cs" />
+      <File FileName="Program.cs" Line="16" Column="28" />
+      <File FileName="Model/LinkedList.cs" Line="62" Column="1" />
       <File FileName="Model/Item.cs" />
     </Files>
     <Pads>
@@ -18,6 +18,9 @@
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
